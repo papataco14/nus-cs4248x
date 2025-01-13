@@ -1,0 +1,22 @@
+# Packages
+re
+numpy
+pandas
+sklearn
+matplotlib
+seaborn
+networkx
+nltk
+spacy
+torch 
+torchtext
+
+# Create conda env
+conda create --name CS4248 python=3.11
+
+# Install most packages with conda
+conda install -c conda-forge numpy pandas scikit-learn matplotlib seaborn networkx nltk spacy
+
+# Install PyTorch and TorchText
+conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
+pip install torchtext
